@@ -23,7 +23,7 @@ OWM_API_BASE_URL = "http://api.openweathermap.org/data/2.5/"
 ssl._create_default_https_context = ssl._create_unverified_context
 url_weather_news='https://www.meteoconsult.fr/actualites-meteo/dernieres-informations'
 ################ URL DON'T TOUCH ###############################
-def main ():
+def main():
 	welcome_weather_script()
 	getWeather()
 	actus()
